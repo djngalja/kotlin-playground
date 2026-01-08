@@ -65,7 +65,7 @@ val text = "Making my way downtown"
 text.frame()
 ```
 
-![A string with a border around it](/readme_img/frame_string.png)
+![A string with a border around it](readme_img/frame_string.png)
 
 ### A single column table with a header, centered text
 
@@ -74,7 +74,7 @@ val list = listOf("eggs", "bread", "oranges", "tea", "watermelon")
 list.table("Groceries", "middle")
 ```
 
-![A single column table with a header, centered text](/readme_img/table_groceries.png)
+![A single column table with a header, centered text](readme_img/table_groceries.png)
 
 ### A 3-column table with a header, aligned left
 
@@ -85,7 +85,7 @@ val list3 = mutableListOf("dairy", "butter", "cheese")
 table(list1, list2, list3)
 ```
 
-![A 3-column table with a header, aligned left](/readme_img/table_fruits.png)
+![A 3-column table with a header, aligned left](readme_img/table_fruits.png)
 
 ### A 5-column table with a header and a total row, centered text
 
@@ -116,4 +116,4 @@ table(
 )
 ```
 
-![A 5-column table with a header and a total row, centered text](/readme_img/table_product.png)
+![A 5-column table with a header and a total row, centered text](readme_img/table_product.png)
